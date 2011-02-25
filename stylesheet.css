@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "libertine";
+}
+
+a {
+    text-decoration: none;
+}
+
+#box_outer {
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 30px 0px gray;
+    -webkit-box-shadow: 0px 0px 30px 0px gray; 
+    box-shadow: 0px 0px 30px 0px gray;
+}
+
+#box_inner {
+    position: relative;
+    margin: auto;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 30px 0px gray;
+    -webkit-box-shadow: inset 0px 0px 8px 0px black; 
+    box-shadow: 0px 0px 30px 0px gray;
+    height: 400px;
+    width: 600px;
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    left: 225px;
+    background-image: url("images/dhbwlogo.png");
+    background-repeat: no-repeat;
+    width:150px;
+    height: 62px;
+}
+
+#projekte {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 560px;
+    height: 200px;
+    padding: 20px;
+    text-align: left;
+}
+
+#projekte .projekt {
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding: 4px;
+    width: 260px; /* 280 - 2*(5+5) px*/
+}
+
+#projekte .projekt .title {
+}
+
+#projekte .projekt .description {
+    font-family: "libertine-italic";
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#footer {
+    position: absolute;
+    top: 340px;
+    left: 100px; /* 600/2 - 400/2 */
+    width: 400px;
+    height: 80px;
+    font-size: 0.8em;
+}
+
+@font-face{
+  font-family: "libertine";
+  src: url("fonts/LinBiolinum_Re-0.6.4.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "libertine-italic";
+  src: url("fonts/LinBiolinum_It-0.5.1.otf") format("opentype");
+}
