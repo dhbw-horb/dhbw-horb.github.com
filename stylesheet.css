@@ -51,26 +51,27 @@ a {
     padding: 4px;
     width: 260px; /* 280 - 2*(5+5) px*/
     height: 50px;
-    -moz-transition-property: -moz-box-shadow, -webkit-transform;
-    -moz-transition-duration: 0.5s,0.2s;
+    -moz-transition-property: -moz-box-shadow, -webkit-transform, background-color;
+    -moz-transition-duration: 0.2s,0.2s,0.2s;
     -moz-box-shadow: 0px 0px 0px 0px gray;
  
-    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
-    -webkit-transition-duration: 0.5s,0.2s;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform, background-color;
+    -webkit-transition-duration: 0.2s,0.2s,0.2s;
     -webkit-box-shadow: 0px 0px 0px 0px gray; 
  
-    transition-property: box-shadow, transform;
-    transition-duration: 0.5s,0.2s;
+    transition-property: box-shadow, transform, background-color;
+    transition-duration: 0.2s,0.2s,0.2s;
     box-shadow: 0px 0px 0px 0px gray; 
 }
 
 #projekte .projekt:hover {
-    -moz-box-shadow: 0px 0px 10px #eeeeee;
-    -webkit-box-shadow: 0px 0px 10px #eeeeee;
-    box-shadow: 0px 0px 10px #eeeeee;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    transform: scale(1.05);
+    -moz-box-shadow: 0px 0px 10px 5px #eee;
+    -webkit-box-shadow: 0px 0px 10px 5px #eee;
+    box-shadow: 0px 0px 10px 5px #eee;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #eee;
 }
 
 #projekte .projekt .title {
