@@ -74,6 +74,13 @@ a {
     background-color: #eee;
 }
 
+#projekte .projekt:active {
+    background-color: #fafafa;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 #projekte .projekt .title {
     font-size: 22px;
     text-align: center;
